@@ -1,4 +1,4 @@
-1장 리액트 시작
+## 1장 리액트 시작
 
 1) Visual Studio Code 설치
 2) Node.js 설치
