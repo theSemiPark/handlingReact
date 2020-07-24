@@ -6,10 +6,12 @@
 모듈을 import하는 기능은 브라우저에 없다.
 Node.js에서 지원하는 기능이며, 이를 브라우저에서도 사용하기 위해 번들러를 사용한다.
 - 번들러 예) webpack, Parcel, browserify
+
 리액트에서는 webpack을 주로 사용해(편의성과 확장성이 뛰어남) 불러온 모듈을 모두 합쳐서 하나의 파일을 생성한다.
 이 프로젝트에서는 index.js가 번들러의 기능을 수행한다.
 파일 불러오는 기능 웹팩의 로더(loader)가 담당한다
 - 로더 예)css-loader, file-loader, babel-loader
+
 원래 웹팩의 로더는 직접 설치하고 설정해야 하지만, 리액트에서는 create-react-app 에 포함된다.
 
 
