@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Counter = ({ onIncrease, onDecrease, number }) => {
   return (
@@ -9,4 +9,5 @@ const Counter = ({ onIncrease, onDecrease, number }) => {
     </div>
   );
 };
+
 export default Counter;
